@@ -1,3 +1,3 @@
-Jorge Saldivar - Curriculum Vitae
+Jorge Saldivar - EU-formated Curriculum Vitae 
 
-[View](https://github.com/joausaga/cv/blob/master/jorge_saldivar.pdf?raw=true)
+[View](https://github.com/joausaga/cv/blob/euro/jorge_saldivar.pdf?raw=true)
