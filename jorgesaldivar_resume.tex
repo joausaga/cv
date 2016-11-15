@@ -1,0 +1,232 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.0.1, 11 September 2016) written by
+% LianTze Lim (liantze@gmail.com), based on the 
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+% 
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages. 
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% 
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you'll need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+\setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{LightBlue}{HTML}{0431B4}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{Black}{HTML}{000000}
+\colorlet{heading}{Black}
+\colorlet{accent}{LightBlue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\usepackage{color}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+
+%% sample.bib contains your publications
+\addbibresource{publications.bib}
+
+\begin{document}
+\name{Jorge Saldivar}
+\tagline{}
+% Cropped to square from 
+%\photo{2.5cm}{mmayer-wikipedia-cc-by-2_0}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{jorgesaldivar@gmail.com}
+  \homepage{www.jorgesaldivargalli.com}
+%   \phone{000-00-0000}
+  %\mailaddress{Address, Street, 00000 County}
+  \location{Asunci\'on, Paraguay}
+  %\twitter{@marissamayer}
+  %\linkedin{linkedin.com/in/marissamayer}
+%   \github{github.com/mmayer} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too
+}
+
+%% Make the header extend all the way to the right, if you want. Extend the right margin by 8cm (=6.8cm marginparwidth + 1.2cm marginparsep)
+\begin{adjustwidth}{}{-8cm}
+\makecvheader
+\end{adjustwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Current Position and research}
+
+\cvevent{Assistant Researcher}{Catholic University of Asunci\'on, Paraguay}{February 2016}{Asunci\'on, Paraguay}
+Assistant researcher at the Department of Electronic and Informatics, Catholic University of Asunci\'on, Paraguay working on the following topics: \\
+
+\begin{center}
+\textbf{Applied Machine Learning \& Data Analysis}, \textbf{Civic Participation \& Democratic Innovation}, \textbf{Crowdsourcing}, \textbf{Collective Intelligence}
+\end{center}
+
+\cvsection{Education}
+
+\cvevent{Ph.D. candidate, Computer Science}{University of Trento, Italy}{\textit{(expected)} April 2016}{}
+\textbf{Thesis:} Integrating Platforms for Eliciting Ideas with Social Networks: An approach to empower civic engagement for public sector innovation
+%\item Advisors: Prof. Fabio Casati, Dr. Florian Daniel, Prof. Luca Cernuzzi 
+
+\divider
+
+\cvevent{Bachelor of Science (B.Sc.), Informatics Engineering}{Catholic University of Asunci\'on, Paraguay}{February 2010}{}
+\textbf{Thesis:} Improving cooperative and competitive behaviors on visually impaired children
+%\item Thesis mark: 5 out of 5 points
+
+\cvsection{Research projects}
+
+%\cvevent{Civic Crowd Analytics}{\textcolor{gray}{Leading Institution:} Stanford University, USA}{March 2016 -- Present}{}
+%Designing machine learning-based tools to automatically analyze and synthesize crowdsourced civic input.
+
+\cvevent{Participa}{\textcolor{gray}{Leading Institution:} Catholic University of Asunci\'on, Paraguay}{February 2016 -- Present}{}
+Developing ICT solutions to foster, support, and facilitate civic participation in the creation of social impact solutions and public sector innovations
+
+\divider
+
+\cvevent{The California Report Card}{\textcolor{gray}{Leading Institution:} University of California Berkeley, USA}{July 2014 -- December 2014}{}
+Implementing mobile-based solutions to structure and streamline communication from the California residents to their elected officials.
+
+%\cvevent{Agora 2.0}{\textcolor{gray}{Leading Institution:} University of Trento, Italy}{March 2012 -- December 2012}{}
+%Integrating public displays and open innovation platforms to create a synchronized on-line and on-site system oriented to promote civic participation in discussions about public interest issues.
+
+\divider
+
+\cvevent{BPM4People (EU FP7 funded project)}{\textcolor{gray}{Leading Institution:} University of Trento, Italy}{November 2011 -- October 2013}{}
+Developing methodologies, techniques, and tools to model and deploy business processes that are executed collaboratively by people in social networks.
+
+\divider
+
+\cvevent{Ianus}{\textcolor{gray}{Leading Institution:} University of Trento, Italy}{November 2011 -- March 2013}{}
+Developing of methods, techniques, and tools to model, analyze, test, and deploy business processes.
+
+%\cvevent{The Finnish Experiment}{\textcolor{gray}{Leading Institution:} Parliament of Finland, Finland}{March 2014 -- Present}{}
+%Analyzing participation patterns and effect of moderation actions in crowdsourced policy-making processes.
+
+% \divider
+
+% \cvevent{Vice President of Location \& Services}{Google}{Oct 2010 -- July 2012}{Palo Alto, CA}
+% \begin{itemize}
+% \item Position Google Maps as the world leader in mobile apps and navigation
+% \item Oversaw 1000+ engineers and product managers working on Google Maps, Google Places and Google Earth
+% \end{itemize}
+
+% \divider
+
+% \cvevent{Vice President of Search Products \& UX}{Google}{2005 --  2010}{Palo Alto, CA}
+
+% \divider
+
+% \cvevent{Product Manager \& UI Lead}{Google}{Oct 2001 -- July 2005}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Appointed by the founder Larry Page in 2001 to lead the Product Management and User Interaction teams
+% \item Optimized Google's homepage and A/B tested every minor detail to increase usability (incl.~spacing between words, color schemes and pixel-by-pixel element alignment)
+% \end{itemize}
+
+% \divider
+
+% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+
+% \begin{itemize}
+% \item Joined the company as employe \#20 and female employee \#1
+% \item Developed targeted advertisement in order to use user's search queries and show them related ads
+% \end{itemize}
+
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+%\wheelchart{1.5cm}{0.5cm}{%
+%  10/13em/accent!30/Sleeping \& dreaming about work, 
+%  25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
+%  5/12em/accent!10/New York \& San Francisco Ballet Jawbone board member, 
+%  20/12em/accent!40/Spending time with family,
+%  5/8em/accent!20/Business development for Yahoo!\ after the Verizon acquisition,
+%  30/9em/accent/Showing Yahoo!\ employees that their work has meaning,
+%  5/8em/accent!20/Baking cupcakes
+%}
+
+\clearpage
+
+\cvsection[page2sidebar]{Other professional experiences}
+
+\cvevent{Visiting Researcher}{Center for Information Technology Research in Interest of the Society (CITRIS), University of California, Berkeley}{July 2014 -- October 2014}{Berkeley, CA, USA}
+\begin{itemize}
+\item Modeled, designed, and implemented a Twitter-based extension for the platform CAFE used in the project California Report Card to engage citizens of California in the collective assessment of timely issues
+\end{itemize}
+
+\divider
+
+\cvevent{Visiting Researcher}{Information Analysis Division, Hewlett-Packard (HP) Labs}{October 2013 -- December 2013}{Palo Alto, CA, USA}
+\begin{itemize}
+\item Designed and implemented an web-based interactive analytic tool for conducting real-time visualization of query execution
+\item Developed a recommendation plugin that annotated the query tree with the most interesting results of its execution analysis, which may indicate execution problems and recommend design solutions for the discovered problems in queries
+\end{itemize}
+
+\divider
+
+\cvevent{Software Engineer}{NGO Paraguay Educa}{January 2010 -- July 2011}{Asunci\'on, Paraguay}
+\begin{itemize} 	
+\item Developed and maintenance of Sugar OS apps (Labyrinth, Poll, TamTam).
+\item Designed, modeled, implemented and maintained the educational software stack (learning platforms, online libraries, student tracking systems) used by teachers and students in classrooms during the deployment of the project One Laptop per Child (OLPC).
+\end{itemize}
+
+%\divider
+%
+%\cvevent{Software Developer}{Catholic University of Asunci\'on}{March 2008 -- December 2008}{Asunci\'on, Paraguay}
+%\begin{itemize} 
+%\item Mounted and maintained of Unix servers. Set up and configured OLPC XO laptops. 
+%\item Developed and customized educational applications for Sugar OS.
+%\end{itemize} 
+     
+%\divider     
+     
+%\cvevent{Software Developer}{Azucarera Iturbe (Sugar Industry)}{March 2007 -- December 2007}{Asunci\'on, Paraguay}
+%\begin{itemize}
+%\item Developed, tested and maintained a web-based business management system (billing, stocking, accounting, freighting, human resources)
+%\end{itemize} 
+
+\cvsection{Recent Publications}
+Published \textbf{11 peer-reviewed papers} in relevant  conferences and journals. The most recent are the following
+
+\nocite{*}
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+%\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+
+%\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+\end{document}
