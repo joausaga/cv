@@ -1,3 +1,3 @@
-Jorge Saldivar - Curriculum Vitae
+Jorge Saldivar - Resume
 
-[View](https://github.com/joausaga/cv/blob/master/jorge_saldivar.pdf?raw=true)
+[View](https://github.com/joausaga/cv/blob/ds-resume/jorge_saldivar.pdf?raw=true)

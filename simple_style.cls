@@ -238,9 +238,9 @@
 	  \vspace{-16ex}
 	  \leavevmode\hbox to 
 	  \textwidth{\hfil\@detailsbox{\@addressone\\
-			               \@emailone\ $|$ \@emailtwo\\
-				       Webpage : \@website\\
-				       Github : \@github\\
+			           Email: \@emailone\\ %$|$ \@emailtwo\\
+				       Webpage: \@website\\
+				       Github: \@github\\
 				       \@phone\\\\}}\par
   }%
   % Add a horizontal line after name
