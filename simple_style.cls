@@ -238,7 +238,7 @@
 	  \vspace{-16ex}
 	  \leavevmode\hbox to 
 	  \textwidth{\hfil\@detailsbox{\@addressone\\
-			               \@emailone\ $|$ \@emailtwo\\
+			               \@emailone\ \\ %$|$ \@emailtwo\\
 				       Webpage : \@website\\
 				       Github : \@github\\
 				       \@phone\\\\}}\par
